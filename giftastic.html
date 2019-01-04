@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Gif Tastic</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <div class="container"></div>
+  <div id="animalsbuttons"></div>  
+    
+
+  <!--Where the gifs will show-->
+  <div id="gifs" style="float:left;"></div>
+
+  <!--Write in setion-->
+  <div style="float:right; margin-top:90px;">
+    <h4>Add an Animal</h4>
+      <form id="gif-form">
+        <label for="gif-input"></label>
+        <input type="text" value="" id="gif-input"><br><br>
+        <!--Creates the submit button-->
+        <input type="submit" name="Button" class="btn btn-success" id="theButton" style="margin-left:8px">
+      </form>
+  </div>
+
+<!--Local javascript operations file-->
+<script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
